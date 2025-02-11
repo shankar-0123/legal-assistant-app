@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nyaay Sahaayak</title>
+    <link rel="stylesheet" href="nsstyles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="{{ url_for('NyaaySahaayak') }}"></a>
+    <div class="back">
+        <h1 class="h1"> Nyaay Sahaayak</h1>
+        <div id="chat-container">
+            <div id="chat-log"></div>
+        </div>
+        <div class="input">
+            <input type="text" id="user-input" placeholder="Type your message...">
+            <button onclick="sendMessage()"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABsElEQVR4nO2WS0oDQRCGv71mJ6ImIj4wuYvGtdET5OFC4kXcqXiAEI0rjQcRIrmFRjcxGSIN/0AbdKa7J+7mh4Jhuh5/V3dVNeTI4YdNoAU8A6/Ap8R894EmUOIfUASugQkwS5EI6AJbiwp+BIzkfAx0gGOgDCxJzHdNa2PpGptq1uBn2tFMu9p2sNkB7q1smCML3nkETIHzAPu2bKOQTBSttIcEt0kYH+/Auo/hrZX2JKxKktCTL3OJnUttqsuUdOYm8IskicSufE2U2VS0xLjjEDwuvTQSXek1XAj0pVxzDO5C4lQ6jy4EhlLeTwk+n4EkEmWtm46ZipGUC7+sNeYCxQRsYr+luWA1p0wEDOrWLmMC6J9ZIyuBYcIRzMMmkISK9AaLuIQhBLwuYdOhDH0JxGX41xH9QElNY6zBkpXAnm8jMriRYzPVsuJBvq58jDasajADJRQX8vEGrPkaV61x3A4MHo/jAwLRsh4kPQ0WHM48TnukS50Jh5rn8ZPM3OgT1faypKJSuwO+rLQH73weK8Cl46N0otnv9QBxRVG1/KSu9iEZqMnUfUotRw6DbxmQrRt/p9fGAAAAAElFTkSuQmCC"></button>
+        </div>
+    </div>
+
+    <script src="script1.js">
+</script>
+</body>
+</html>

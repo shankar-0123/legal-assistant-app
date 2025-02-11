@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Interface</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        header {
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+        }
+        .chat-wrapper {
+            flex: 1;
+            display: flex;
+        }
+        .instructions {
+            flex: 1;
+            background-color: #e6f2ff;
+            padding: 20px;
+        }
+        .warning {
+            flex: 1;
+            background-color: #ffe6e6;
+            padding: 20px;
+        }
+        .logo {
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="your_logo.png" alt="Your Logo" width="150">
+            </div>
+        </header>
+        <div class="chat-wrapper">
+            <div class="instructions">
+                <h2>Instructions:</h2>
+                <p>Enter your message in the chat box and press send.</p>
+                <p>Wait for the response.</p>
+            </div>
+            <div class="warning">
+                <h2>Warning:</h2>
+                <p>Be cautious with the information you share in the chat.</p>
+                <p>Avoid sharing sensitive or personal details.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

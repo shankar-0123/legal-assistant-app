@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage</title>
+     
+    <link ... href="{{ url_for('static', filename='style.css') }}" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"/>
+
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel = "stylesheet" href="indexstyles.css">
+    
+  </head>
+  <body>
+    
+    
+    <header class="container header">
+  
+      <nav class="nav">
+        <div class="logo">
+          <h2>Nyaay Sahaayak</h2>
+        </div>
+
+        <div class="nav_menu" id="nav_menu">
+          <button class="close_btn" id="close_btn">
+            <i class="ri-close-fill"></i>
+          </button>
+
+          <ul class="nav_menu_list">
+            <li class="nav_menu_item">
+              <a href="#" class="nav_menu_link" onclick="scrollToIntro()">Introduction</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="#" class="nav_menu_link" onclick="scrollToFeatures()">Features</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="#" class="nav_menu_link" onclick="scrollToTech()">TechStack</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="#" class="nav_menu_link" onclick="scrollToAboutus()">The Team</a>
+            </li>
+          </ul>
+        </div>
+
+        <button class="toggle_btn" id="toggle_btn">
+          <i class="ri-menu-line"></i>
+        </button>
+      </nav>
+    </header>
+
+    <section class="wrapper">
+      <div class="container">
+        <div class="grid-cols-2">
+          <div class="grid-item-1">
+            <h1 class="main-heading">
+              <span>Nyaay Sahaayak</span>
+              <br />
+              Legal Empowerment Redefined
+            </h1>
+            <p class="info-text">
+            A comprehensive platform for legal awareness,seamlessly responds in multiple languages
+            </p>
+
+            <div class="btn_wrapper">
+              <a href="NyaaySahaayak">
+                <button class="btn view_more_btn">
+                  Get Started
+                </button>
+              </a>
+              
+            </div>
+          </div>
+          <div class="grid-item-2">
+            <div class="team_img_wrapper">
+              <img src="team.svg" alt="team-img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id = "Intro" class="wrapper">
+      <div class="container">
+        <div style="font-family: Inter, sans-serif;font-size: 30px; margin-left: 30px; margin-bottom: 50px; color: #335EEA;">Introduction
+          <p class="info-text">Access to legal information and awareness is a challenge for
+            a large population in India, especially for those who are not
+            literate or are from marginalized communities. Our aim was to
+            develop a digital assistant that can provide legal information
+            and guidance to people in a user-friendly manner. The digital
+            assistant would be able to converse in multiple languages
+            and provide information in a concise and easy-to-understand
+            manner. The platform should be accessible through various
+            devices, including smartphones, tablets, and desktop
+            computers. </p>
+        </div>
+    <section id = "features" class="wrapper">
+      <div class="container">
+        <div style="font-family: Inter, sans-serif;font-size: 30px; margin-bottom: 50px; color: #335EEA;">Features
+          <p class="info-text">Welcome to our platform, where convenience and quality converge! Enjoy round-the-clock access, multilingual support, and trustworthy, free-of-cost services. Experience unparalleled convenience and excellence with us today.</p>
+        </div>
+        <div class="feature-box">
+          <div class="feature">
+            <img src="anywhere_icon.png" alt="Anywhere Icon">
+            <h3 style="color:#335EEA">Anywhere</h3>
+            <p>Access our service from anywhere in the world.</p>
+          </div>
+          <div class="feature">
+            <img src="anytime_icon.png" alt="Anytime Icon">
+            <h3 style="color:#335EEA">Anytime</h3>
+            <p>Available 24/7, whenever you need it.</p>
+          </div>
+          <div class="feature">
+            <img src="free_icon.png" alt="Free Icon">
+            <h3 style="color:#335EEA">Free of Cost</h3>
+            <p>Our service is completely free to use.</p>
+          </div>
+          <div class="feature">
+            <img src="multilingual_icon.png" alt="Multilingual Icon">
+            <h3 style="color:#335EEA">Multilingual</h3>
+            <p>Supports multiple languages for global accessibility.</p>
+          </div>
+          <div class="feature">
+            <img src="quick_easy_icon.png" alt="Quick & Easy Icon">
+            <h3 style="color:#335EEA">Quick & Easy</h3>
+            <p>Simple and intuitive interface for fast usage.</p>
+          </div>
+          <div class="feature">
+            <img src="authentic_icon.png" alt="Authentic Info Icon">
+            <h3 style="color:#335EEA">Authentic Info</h3>
+            <p>Reliable and trustworthy information provided.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Tech" class="wrapper">
+      <div class="container">
+        <div style="font-family: Inter, sans-serif;font-size: 30px; margin-bottom: 50px; color: #335EEA;">TechStack
+        <p class="info-text"> Explore the technologies powering our project! We've utilized a diverse tech stack to bring our vision to life. From front-end to back-end, our stack ensures seamless performance and robust functionality. Discover the technologies we've embraced to create our application:</p>
+        </div>
+        <div class="info-text">
+        <div class="technologies">
+          <div class="technology">
+            <img src="html_logo.png" alt="HTML">
+            <p>HTML</p>
+          </div>
+          <div class="technology">
+            <img src="css_logo.png" alt="CSS">
+            <p>CSS</p>
+          </div>
+          <div class="technology">
+            <img src="javascript_logo.png" alt="JavaScript">
+            <p>JavaScript</p>
+          </div>
+          <div class="technology">
+            <img src="python_logo.png" alt="Python">
+            <p>Python</p>
+          </div>
+          <div class="technology">
+            <img src="flask_logo.png" alt="flask">
+            <p>Flask</p>
+          </div>
+          <div class="technology">
+            <img src="gt_logo.png" alt="gt">
+            <p>Google Translate API</p>
+          </div>
+          <div class="technology">
+            <img src="gai.png" alt="gai">
+            <p>Google Generative AI</p>
+          </div>
+          <div class="technology">
+            <img src="faiss.png" alt="faiss">
+            <p>Facebook AI Similarity Search</p>
+          </div>
+          <div class="technology">
+            <img src="langchain.png" alt="langchain">
+            <p style=" margin-top: 40px;"> Langchain </p>
+          </div>
+          <div class="technology">
+            <img src="docker.png" alt="docker">
+            <p style=" margin-top: 25px;">Docker</p>
+          </div>
+          <div class="technology">
+            <img src="huggingface.png" alt="huggingface">
+            <p>Hugging Face</p>
+          </div>
+          <div class="technology">
+            <img src="huggingfacespaces.png" alt="huggingfacespaces">
+            <p>Hugging Face Spaces</p>
+          </div>
+          </div>
+      </div>
+      
+    </section>
+
+    <section id="Aboutus" class="wrapper">
+      
+      <div class="container">
+        <div style="font-family: Inter, sans-serif;font-size: 30px; margin-bottom: 50px; color: #335EEA;">About us
+          <p class="info-text"> Get to know us! We're a dynamic team of aspiring computer science students, fueled by our passion for innovation and technology. With a shared vision for learning and collaboration, we've embarked on a journey to create our first project together. Learn more about our backgrounds, aspirations, and journey below.</p>
+          </div>
+        <div class="team">
+          
+          <div class="team-member">
+            <img src="team_member1.jpg" alt="Team Member 1">
+            <h3 style="color:#335EEA">Rajeev Isaac</h3>
+            <p>CSE B</p>
+            <p>Neil Gogte Institute of Technology</p>
+          </div>
+          <div class="team-member">
+            <img src="team_member1.jpg" alt="Team Member 2">
+            <h3 style="color:#335EEA">Nitin</h3>
+            <p>CSE-B</p>
+            <p>Neil Gogte Institute of Technology</p>
+          </div>
+          <div class="team-member">
+            <img src="team_member1.jpg" alt="Team Member 3">
+            <h3 style="color:#335EEA">Vishal</h3>
+            <p>CSE-B</p>
+            <p>Neil Gogte Institute of Technology</p>
+          </div>
+          <div class="team-member">
+            <img src="team_member1.jpg" alt="Team Member 4">
+            <h3 style="color:#335EEA">Shankar</h3>
+            <p>CSE-B</p>
+            <p>Neil Gogte Institute of Technology</p>
+          </div>
+          <div class="team-member">
+            <img src="team_member1.jpg" alt="Team Member 5">
+            <h3 style="color:#335EEA">Manikanta</h3>
+            <p>CSE-B</p>
+            <p>Neil Gogte Institute of Technology</p>
+          </div>
+          <div class="team-member">
+            <img src="team_member1.jpg" alt="Team Member 6">
+            <h3 style="color:#335EEA">Bhanu Prasad</h3>
+            <p>CSE-A</p>
+            <p>Neil Gogte Institute of Technology</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  
+
+    <!-- ==== ANIMATE ON SCROLL JS CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- ==== GSAP CDN ==== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <!-- ==== SCRIPT.JS ==== -->
+    <script src="./script.js" defer></script>
+    <script>
+      function scrollToFeatures() {
+        var featuresSection = document.getElementById('features');
+        featuresSection.scrollIntoView({ behavior: 'smooth' });
+      }
+      function scrollToAboutus() {
+        var featuresSection = document.getElementById('Aboutus');
+        featuresSection.scrollIntoView({ behavior: 'smooth' });
+      }
+      function scrollToTech() {
+        var featuresSection = document.getElementById('Tech');
+        featuresSection.scrollIntoView({ behavior: 'smooth' });
+      }
+      function scrollToIntro() {
+        var featuresSection = document.getElementById('Intro');
+        featuresSection.scrollIntoView({ behavior: 'smooth' });
+      }
+      
+      </script>
+  </body>
+  <footer>
+    <div class="footer-content">
+        <p>&copy; 2024 Nyaay Sahaayak. All rights reserved.</p>
+        <ul class="footer-links">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+</footer>
+</html>

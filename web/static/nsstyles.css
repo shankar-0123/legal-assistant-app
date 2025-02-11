@@ -1,0 +1,94 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow-y:none;
+  position:fixed;
+  }
+
+  .h1{
+  text-align: center;
+  color: #335eea;
+  }
+  .chatlog{
+  display: block;
+  width:20vw;
+  margin-bottom: 0%;
+  position: fixed;
+  }
+  #chat-container {
+  margin-left: 10vw;
+  width: 80vw;
+  color:white;
+  background-color: #335eea;
+  opacity:80%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding-top: 20px;
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  height: 75vh;
+  overflow-y: auto;
+  box-sizing: border-box;
+  }
+
+  #user-input {
+  width: 95vw;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom:10%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  }
+
+  button {
+  background-color: white;
+  margin-bottom: 10%;
+  margin-left: 1vw;
+  margin-top: 10px;
+  color: white;
+  border:none;
+  border-radius: 4px;
+  cursor: pointer;
+  }
+
+  button:hover {
+  background-color: #45a049;
+  }
+
+  p {
+  margin: 5px 0;
+  }
+  #chat-container, button, #user-input {
+  transition: 0s;
+  }
+  .botchat{
+  background-color: #f9f9f9;
+  color:#335eea;
+  width:76.5vw;
+  margin-left: 1vw;
+  }
+  .input{
+  display:flex;
+  align-items: flex-end;
+  width: 80vw;
+  height:10vw;
+  margin-top:1.5%;
+  margin-left: 10%;
+  }
+  .back{
+  background-image: white;
+  width:100vw;
+  position: fixed;
+  }
+  .userchat{
+  margin-left: 1vw;
+  }
